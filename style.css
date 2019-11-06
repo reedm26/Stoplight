@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: cornflowerblue;
+  margin: 0;
+  justify-content: center;
+}
+.stoplight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  height: 15vh;
+  width: 5vh;
+  background-color: gray;
+}
+.light-box {
+  background-color: gray;
+  padding: 1em;
+}
+.light {
+  border-radius: 50%;
+  height: 10vh;
+  width: 10vh;
+  margin-bottom: 0.5em;
+}
+.yellow {
+  background-color: rgb(255, 200, 81);
+}
+.yellow:hover {
+  background-color: yellow;
+  box-shadow: 0 0 15px yellow;
+}
+.red {
+  background-color: red;
+}
+.red:hover {
+  background-color: red;
+  box-shadow: 0 0 15px red;
+}
+.green {
+  background-color: rgb(41, 248, 41);
+}
+.green:hover {
+  background-color: rgb(132, 243, 132);
+  box-shadow: 0 0 15px rgb(117, 241, 117);
+}
